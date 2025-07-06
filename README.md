@@ -32,36 +32,54 @@ This graph tells the Numerical feature distribution.
 Then I trained the dataset on different models and the output was as follows-
 
 1. Linear Regression-
+   
 Mean Squared Error: 1611519899.4528046
+
 Root Mean Squared Error: 40143.74047660238
 
-2. Lasso Regression:
+3. Lasso Regression:
+   
   RMSE: 40133.21828114205
+
   R^2: 0.780603549042814
 
 3.Ridge Regression:
+
   RMSE: 40130.12191260899
+  
   R^2: 0.7806374016013723
 
 4. Random Forest Regression:
+   
   RMSE: 30424.301391002657
+  
   R^2: 0.8739151654413598
 
-5. XGBoost Regression:
+6. XGBoost Regression:
+   
   RMSE: 29865.323748311373
+  
   R^2: 0.8785056512067712
 
-6. LightGBM Regression:
+8. LightGBM Regression:
+   
   RMSE: 31944.09314635307
+  
   R^2: 0.8610038565141291
 
 From here i saw that the model performed best on XG Boost and Random Forest, so i applied it to Test.csv and these were the results-
 
 1.Random Forest:
+
   RMSE: 28937.05
+  
   R^2:  0.8908
+
+  
 2.XGBoost:
+
   RMSE: 28547.93
+  
   R^2:  0.8937
 
 
